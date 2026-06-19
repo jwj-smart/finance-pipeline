@@ -1,0 +1,19 @@
+# Environments
+.venv/
+env/
+venv/
+
+# Python Artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Configuration & Secrets
+config/*.json
+config/*.yaml
+.env
+
+# IDEs
+.vscode/
+.idea/
