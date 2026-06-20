@@ -3,7 +3,9 @@ certifi==2026.6.17
 cffi==2.0.0
 charset-normalizer==3.4.7
 curl-cffi==0.15.0
+fredapi==0.5.2
 greenlet==3.5.2
+holidays==0.99
 idna==3.18
 markdown-it-py==4.2.0
 mdurl==0.1.2
@@ -17,6 +19,7 @@ psycopg2-binary==2.9.12
 pycparser==3.0
 pygments==2.20.0
 python-dateutil==2.9.0.post0
+python-dotenv==1.2.2
 pytz==2026.2
 requests==2.34.2
 rich==15.0.0
