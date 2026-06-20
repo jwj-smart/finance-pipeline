@@ -13,9 +13,12 @@ load_dotenv(dotenv_path=env_path)
 
 # 3. Retrieve the connection string securely from the environment variable
 DATABASE_URL = os.getenv("SUPABASE_DB_URL")
+FRED_API_KEY = os.getenv("FRED_API_KEY")
 
 if not DATABASE_URL:
     raise ValueError("CRITICAL: SUPABASE_DB_URL is not set in the .env file.")
+if not FRED_API_KEY:
+    raise ValueError("CRITICAL: FRED_API_KEY is not set in the .env file.")
 
 
 # 4. Initialise the SQLAlchemy engine
